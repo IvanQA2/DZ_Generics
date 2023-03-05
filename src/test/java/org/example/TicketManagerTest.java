@@ -161,5 +161,4 @@ class TicketManagerTest {
         Ticket ticket = new Ticket(1, 100, "MSK", "IZ", 120);
         Assertions.assertEquals(120, ticket.getTravelTime());
     }
-
 }
